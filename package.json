@@ -1,0 +1,22 @@
+{
+  "name": "servidor-tfm",
+  "version": "1.0.0",
+  "description": "servidor_tfm_jorge_marrero",
+  "main": "index.js",
+  "scripts": {
+    "test": "prueba"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge-Marrero/Servidor-TFM.git"
+  },
+  "author": "Jorge Marrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge-Marrero/Servidor-TFM/issues"
+  },
+  "homepage": "https://github.com/Jorge-Marrero/Servidor-TFM#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
