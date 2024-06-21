@@ -1,0 +1,32 @@
+/*
+const options = {
+    key: fs.readFileSync('./certificados/server-key.pem'),
+    cert: fs.readFileSync('./certificados/CertificadoSR_firmado.crt'),
+    //requestCert: true,
+    //rejectUnauthorized: true,
+    //ca: fs.readFileSync('./certificados/ca.pem'),
+};
+
+const rutaCrearUsuario = ('./createUser');
+
+const server = tls.createServer(options, (socket) => {
+    console.log('Cliente conectado.');
+  
+    socket.on('data', (data) => {
+      console.log('Datos recibidos del cliente:', data.toString());
+      socket.write('Mensaje recibido por el servidor: ' + data);
+    });
+  
+    socket.on('end', () => {
+      console.log('Cliente desconectado.');
+    });
+  });
+  
+  server.on('error', (err) => {
+    console.error('Error en el servidor:', err);
+  });
+  
+  const PORT = 9999;
+  server.listen(PORT, () => {
+    console.log('Servidor SSL escuchando en el puerto', PORT);
+  });*/
